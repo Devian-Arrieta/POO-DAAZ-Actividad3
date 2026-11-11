@@ -13,6 +13,6 @@ void main() {
     app.transferir(100000, "0123-4567-8910");
 
     cajero.retirar(200000);
-    
+
     concesionarioBanco.pagarFactura(500000, 924752);
 }
