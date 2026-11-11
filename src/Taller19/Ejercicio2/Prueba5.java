@@ -11,7 +11,7 @@ void main() {
     Almacenamiento nube = new AlmacenamientoNube();
     GestorArchivos gestorNube = new GestorArchivos(nube);
 
-    
+
     gestorLocal.procesarGuardado("config.json", "{ 'theme': 'dark' }");
     gestorLocal.procesarLectura("config.json");
 
